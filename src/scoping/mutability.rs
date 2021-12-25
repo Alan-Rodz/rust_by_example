@@ -1,6 +1,6 @@
 /*
 
-    Mutability of data can be changed when 
+    Mutability of data can be changed when
     ownership is transferred.
 
 */
@@ -12,7 +12,6 @@ fn main() {
 
     // Mutability error
     //*immutable_box = 4;
-
     // *Move* the box, changing the ownership (and mutability)
     let mut mutable_box = immutable_box;
 
